@@ -39,15 +39,15 @@ print(result)
 names = ["John", "Jane", "David", "Alice", "Bob"]
 longest_name = max(len(name) for name in names)
 
-# left, center and right justification 
+# left, center and right justification
 for name in names:
-    print(name.ljust(longest_name+2, "-") + ":")
+    print(name.ljust(longest_name + 2, "-") + ":")
 
 for name in names:
-    print(name.rjust(longest_name+2, "-") + ":")
+    print(name.rjust(longest_name + 2, "-") + ":")
 
 for name in names:
-    print(name.center(longest_name+2, "-") + ":")
+    print(name.center(longest_name + 2, "-") + ":")
 
 # translation table
 translation_table = str.maketrans("abg", "461")
