@@ -17,4 +17,3 @@ with zipfile.ZipFile("archive.zip", "r") as zf:
 
     zf.extract("input.txt", "extracted-12052025")
     zf.extractall("extracted-all-12052025")
-
