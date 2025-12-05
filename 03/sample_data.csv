@@ -1,0 +1,19 @@
+id,name,email,age,city,department,salary,join_date,is_active
+1,Alice Johnson,alice.johnson@example.com,28,New York,Engineering,105000,2021-03-15,True
+2,Bob Smith,bob.smith@example.com,34,San Francisco,Marketing,85000,2020-11-02,True
+3,Cathy Lee,cathy.lee@example.com,29,Austin,HR,72000,2022-01-20,True
+4,David Kim,david.kim@example.com,45,Seattle,Engineering,135000,2019-07-10,True
+5,Eva Martinez,eva.martinez@example.com,31,Chicago,Sales,92000,2021-09-08,False
+6,Frank Wilson,frank42@example.com,38,Boston,Engineering,118000,2020-05-30,True
+7,Grace Chen,grace.chen@example.com,26,Miami,Design,78000,2023-02-06-12,True
+8,Henry Brown,henry.b@example.com,52,Denver,Finance,142000,2018-04-01,True
+9,Ivy Patel,ivy.patel@example.com,30,Portland,Marketing,88000,2022-08-17,True
+10,Jack Taylor,jack.taylor@example.com,27,Atlanta,Sales,65000,2023-01-05,False
+11,Karen White,karen.white@example.com,41,New York,HR,79000,2019-12-11,True
+12,Liam Garcia,liam.garcia@example.com,33,Los Angeles,Engineering,112000,2021-07-22,True
+13,Mia Rodriguez,mia.rodriguez@example.com,25,Phoenix,Design,74000,2023-04-18,True
+14,Noah Anderson,noah@example.com,39,Dallas,Finance,128000,2020-02-29,True
+15,Olivia Thomas,olivia.t@example.com,32,San Diego,Marketing,91000,2022-10-03,True
+16,Paul Harris,paul.harris@example.com,47,Houston,Engineering,140000,2017-11-15,True
+17,Quinn Miller,qmiller@example.com,29,Philadelphia,Sales,68000,2023-03-27,False
+18,Rose Clark,rose.clark@example.com,36,Orlando,HR,76000,2021-05-19,True
