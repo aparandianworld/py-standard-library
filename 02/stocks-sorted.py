@@ -15,9 +15,11 @@ def sort_stocks(stocks):
     sorted_stocks = sorted(stocks, key=lambda item: item[2], reverse=True)
     return sorted_stocks
 
+
 def sort_stocks_itemgetter(stocks):
-    sorted_stocks = sorted(stocks, key=itemgetter(2), reverse = True)
+    sorted_stocks = sorted(stocks, key=itemgetter(2), reverse=True)
     return sorted_stocks
+
 
 print("stocks:", stocks)
 print("sorted stocks: ", sort_stocks(stocks))
