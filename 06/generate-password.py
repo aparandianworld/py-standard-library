@@ -16,7 +16,7 @@ def generate_strong_password():
     password = "".join(secrets.choice(potential_chars) for _ in range(num_chars - 2))
     password += secrets.choice(string.ascii_uppercase)
     password += secrets.choice(string.digits)
-    password_list = list(password)
+    password_list = random.sample(password, k=len(password))
     random.shuffle(password_list)
     return "".join(password_list)
 
