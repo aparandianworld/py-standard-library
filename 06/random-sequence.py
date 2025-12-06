@@ -22,23 +22,16 @@ for i in range(len(roulette_wheel)):
 # sample method to get a list of random items without replacement
 letters = string.ascii_letters
 for i in range(10):
-    print(random.sample(letters, k = 5))
+    print(random.sample(letters, k=5))
 
 # shuffle method to shuffle a list in place
-players = [
-    "John",
-    "Mike",
-    "Aaron",
-    "Tom",
-    "Mariah",
-    "Anne"
-]
+players = ["John", "Mike", "Aaron", "Tom", "Mariah", "Anne"]
 print("original: ", players)
 random.shuffle(players)
 print("shuffled (list): ", players)
 
 # NOTE: shuffle does not work on immutable sequences (i.e strings)
-letters = random.sample(string.ascii_letters, k = 10)
+letters = random.sample(string.ascii_letters, k=10)
 print("original: ", letters)
 random.shuffle(letters)
 print("shuffled (string): ", letters)
