@@ -28,5 +28,6 @@ def main():
     sum_orders = calculate_orders(orders)
     print("Sum of orders: ", sum_orders)
 
+
 if __name__ == "__main__":
     main()
